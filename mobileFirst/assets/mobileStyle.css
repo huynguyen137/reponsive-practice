@@ -1,0 +1,132 @@
+.* {
+	padding: 0;
+	margin: 0;
+}
+.content {
+	width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blog-slot {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+.image-slot {
+	width: 120px;
+	height: 120px;;
+	margin: 15px;
+}
+.image-slot img {
+	width: 120px;
+	height: 120px;
+	background-color: #333;
+	margin: 0 auto;
+}
+.column {
+	display: flex;
+    flex-direction: column;
+    width: 68%;
+    justify-content: center;
+    align-items: center;
+}
+.blog-title {
+	margin-top: 15px;
+    width: fit-content;
+}
+.blog-title p {
+	font-size: 32px;
+	color: #333;
+	margin: 0;
+}
+.blog-des {
+	width: 100%;
+}
+.blog-des p {
+	font-size: 12px;
+	color: #979;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li {
+	margin-right: 10px;
+	text-align: center;
+}
+nav a {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+}
+.logo {
+	margin: 0 auto;
+}
+.logo a {
+	display: block;
+	font-size: 50px;
+	text-decoration: none;
+	font-family: Georgia;
+	color: #000;
+}
+.search {
+	width: 70%;
+}
+footer {
+	background-color: #d7dbd8;
+	width: 100%;
+}
+.footer-content {
+	margin: 20px;
+}
+.blue-link {
+	color: blue;
+	font-weight: bolder;
+}
+.hidden {
+	display: none;
+}
+@media only screen and (min-width: 600px) {
+	form {
+		margin: 10px 0 0 475px;
+	}
+	.blog-slot {
+		width: 50%;
+	    justify-content: flex-start;
+	    align-items: flex-start;
+	}
+	.column {
+		justify-content: flex-start;
+    	align-items: flex-start;
+	}
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.hidden {
+		display: block;
+	}
+}
